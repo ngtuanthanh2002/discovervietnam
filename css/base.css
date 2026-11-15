@@ -57,7 +57,8 @@ figcaption {
     transition: color 0.25s ease;
 }
 
-.text-link:hover {
+.text-link:hover,
+.text-link:focus-visible {
     color: #3f4c3e;
     text-decoration-thickness: 3px;
 }
@@ -72,7 +73,11 @@ figcaption {
     font-weight: bold;
     text-decoration: none;
     cursor: pointer;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, transform 0.15s ease;
+}
+
+.button:active {
+    transform: scale(0.96);
 }
 
 .button-sage {
@@ -80,7 +85,8 @@ figcaption {
     background-color: #c9d3c2;
 }
 
-.button-sage:hover {
+.button-sage:hover,
+.button-sage:focus-visible {
     color: #ffffff;
     background-color: #5f705e;
 }
@@ -90,7 +96,8 @@ figcaption {
     background-color: #f7f4ee;
 }
 
-.button-cream:hover {
+.button-cream:hover,
+.button-cream:focus-visible {
     background-color: #c9d3c2;
 }
 
@@ -99,7 +106,8 @@ figcaption {
     background-color: #5f705e;
 }
 
-.button-dark:hover {
+.button-dark:hover,
+.button-dark:focus-visible {
     color: #4f5e4e;
     background-color: #c9d3c2;
     border-color: #5f705e;

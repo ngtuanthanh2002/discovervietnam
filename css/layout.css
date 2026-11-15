@@ -46,13 +46,18 @@
     color: #4f5e4e;
     background-color: #f7f4ee;
     cursor: pointer;
-    transition: color 0.25s ease, background-color 0.25s ease;
+    transition: color 0.25s ease, background-color 0.25s ease, transform 0.15s ease;
 }
 
 .menu-button:hover,
+.menu-button:focus-visible,
 .menu-open .menu-button {
     color: #ffffff;
     background-color: #5f705e;
+}
+
+.menu-button:active {
+    transform: scale(0.92);
 }
 
 .menu-icon,
@@ -110,7 +115,7 @@
     text-align: center;
     text-decoration: none;
     color: #4f5e4e;
-    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, transform 0.15s ease;
 }
 
 .nav-link.active {
@@ -118,10 +123,15 @@
     background-color: #f7f4ee;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:focus-visible {
     color: #ffffff;
     border-color: #5f705e;
     background-color: #5f705e;
+}
+
+.nav-link:active {
+    transform: scale(0.96);
 }
 
 .feature-box {
@@ -256,8 +266,13 @@
     transition: transform 0.25s ease;
 }
 
-.social a:hover {
+.social a:hover,
+.social a:focus-visible {
     transform: translateY(-3px) scale(1.05);
+}
+
+.social a:active {
+    transform: scale(0.95);
 }
 
 .social img {
@@ -277,7 +292,8 @@
     transition: color 0.25s ease, border-color 0.25s ease;
 }
 
-.footer-link:hover {
+.footer-link:hover,
+.footer-link:focus-visible {
     color: #3f4c3e;
     border-bottom-color: #5f705e;
 }

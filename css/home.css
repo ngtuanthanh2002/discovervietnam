@@ -107,7 +107,8 @@
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.card:hover {
+.card:hover,
+.card:focus-within {
     transform: translateY(-4px);
     box-shadow: 0 8px 18px rgba(79, 94, 78, 0.25);
 }
@@ -134,7 +135,8 @@
     transition: color 0.25s ease, background-color 0.25s ease;
 }
 
-.card-link:hover h3 {
+.card-link:hover h3,
+.card-link:focus-visible h3 {
     color: #ffffff;
     background-color: #5f705e;
 }
