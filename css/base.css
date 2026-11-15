@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", "Comic Neue", cursive, sans-serif;
+    line-height: 1.5;
+    color: #4f5e4e;
+    background-color: #f7f4ee;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+figure {
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #3f4c3e;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+}
+
+figcaption {
+    padding-top: 6px;
+    font-size: 0.9rem;
+    font-style: italic;
+    text-align: center;
+}
+
+.text-link {
+    font-weight: bold;
+    color: #5f705e;
+    transition: color 0.25s ease;
+}
+
+.text-link:hover {
+    color: #3f4c3e;
+    text-decoration-thickness: 3px;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 24px;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.button-sage {
+    color: #4f5e4e;
+    background-color: #c9d3c2;
+}
+
+.button-sage:hover {
+    color: #ffffff;
+    background-color: #5f705e;
+}
+
+.button-cream {
+    color: #4f5e4e;
+    background-color: #f7f4ee;
+}
+
+.button-cream:hover {
+    background-color: #c9d3c2;
+}
+
+.button-dark {
+    color: #ffffff;
+    background-color: #5f705e;
+}
+
+.button-dark:hover {
+    color: #4f5e4e;
+    background-color: #c9d3c2;
+    border-color: #5f705e;
+}

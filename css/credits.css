@@ -1,0 +1,36 @@
+.page-intro-text-only {
+    max-width: 1000px;
+}
+
+.credits {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 16px 40px;
+}
+
+.credits-group + .credits-group {
+    margin-top: 32px;
+}
+
+.credits-group h2 {
+    padding-bottom: 6px;
+    border-bottom: 2px solid #5f705e;
+    font-size: 1.4rem;
+}
+
+.credit-list li {
+    padding: 12px 0;
+    border-bottom: 1px solid #a5a4a1;
+}
+
+@media (min-width: 700px) {
+    .page-intro-text-only {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+@media (min-width: 1028px) {
+    .page-intro-text-only {
+        padding: 40px 16px 32px;
+    }
+}
