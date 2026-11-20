@@ -1,3 +1,36 @@
+/* Comic Neue - embedded web font (SIL Open Font License) */
+@font-face {
+    font-family: "Comic Neue";
+    src: url("../fonts/comic-neue-400-normal.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Comic Neue";
+    src: url("../fonts/comic-neue-400-italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Comic Neue";
+    src: url("../fonts/comic-neue-700-normal.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Comic Neue";
+    src: url("../fonts/comic-neue-700-italic.woff2") format("woff2");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -8,7 +41,7 @@ html {
 
 body {
     margin: 0;
-    font-family: "Comic Sans MS", "Comic Neue", cursive, sans-serif;
+    font-family: "Comic Neue", "Comic Sans MS", sans-serif;
     line-height: 1.5;
     color: #4f5e4e;
     background-color: #f7f4ee;
